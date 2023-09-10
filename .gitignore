@@ -26,3 +26,6 @@ venv/
 # Dependency directories (adjust as needed)
 __pycache__/
 node_modules/
+
+# env
+.env
