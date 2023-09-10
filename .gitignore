@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS system files
+.DS_Store
+
+# macOS folder metadata
+.AppleDouble
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Python virtual environment
+venv/
+.env/
+
+# Editor-specific files
+.vscode/
+*.swp
+*.swo
+
+# Dependency directories (adjust as needed)
+__pycache__/
+node_modules/
