@@ -32,4 +32,4 @@ node_modules/
 
 .pytest_cache
 
-*. csv
+*.csv
