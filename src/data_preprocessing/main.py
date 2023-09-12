@@ -16,20 +16,20 @@ def preprocess_data(data:dict):
     df = pd.json_normalize(data)
     
     columns_selected:list[str] = [
-    "name",
-    "has_heartrate",
-    "type",
-    "sport_type",
-    "start_date_local",
-    "moving_time",
-    "elapsed_time",
-    "distance",
-    "total_elevation_gain",
-    "achievement_count",
-    "average_speed",
-    "max_speed",
-    "average_heartrate",
-    "max_heartrate",
+        "name",
+        "has_heartrate",
+        "type",
+        "sport_type",
+        "start_date_local",
+        "moving_time",
+        "elapsed_time",
+        "distance",
+        "total_elevation_gain",
+        "achievement_count",
+        "average_speed",
+        "max_speed",
+        "average_heartrate",
+        "max_heartrate"
     ]
     
     df = df[columns_selected]
