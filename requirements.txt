@@ -1,3 +1,4 @@
 environs==9.5.0
 pandas==2.1.0
 Requests==2.31.0
+numpy==1.26.4
